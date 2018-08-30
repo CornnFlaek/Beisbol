@@ -24,6 +24,7 @@ namespace Baseball
             equipo1.jugadores.Add(new Jugador("El Moss", "7"));
             equipo1.jugadores.Add(new Jugador("Olga", "8"));
             equipo1.jugadores.Add(new Jugador("Promises", "9"));
+            equipo1.estadio = new Estadio ("Dust II", "Iran", 10);
             equipos.Add(equipo1);
 
             Equipo equipo2 = new Equipo();
@@ -37,6 +38,7 @@ namespace Baseball
             equipo2.jugadores.Add(new Jugador("Go1", "7"));
             equipo2.jugadores.Add(new Jugador("Vortex", "8"));
             equipo2.jugadores.Add(new Jugador("German", "9"));
+            Console.WriteLine("No hay estadio");
             equipos.Add(equipo2);
 
             foreach (Equipo elemento in equipos)
